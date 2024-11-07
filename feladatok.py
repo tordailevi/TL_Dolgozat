@@ -3,9 +3,10 @@ import random
 def feladat1():
     i:int=1
     while not(i % 2 == 0):
-        i:int=int(input("Adjon meg egy páros számot: "))
+        i:int=int(input("Kérek egy páros számot! "))
         if(i % 2 != 0):
-            print(f"A(z) {i} nem egy páros szám!")
+            print(f"Ez nem páros! PÁROS számot kérek! {i}")
+            print(i)
 
 def feladat2():
     i:int=0
